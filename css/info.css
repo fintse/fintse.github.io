@@ -1,0 +1,29 @@
+.info {
+	opacity: 0;
+	visibility: hidden;
+
+	transition: opacity 0.2s, visibility 0.2s;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	z-index: 1000;
+}
+
+.info.active {
+	opacity: 1;
+	visibility: visible;
+}
+
+.info__overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	background-color: rgba(0, 0, 0, 0.3);
+}

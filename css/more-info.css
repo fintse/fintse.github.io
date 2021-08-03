@@ -1,0 +1,22 @@
+.more-info {
+    margin-top: 24px;
+}
+.more-info__click-area {
+    padding: 12px;
+}
+.more-info__click-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.more-info__info {
+    display: none;
+    margin-top: 32px;
+    max-width: 900px;
+    width: 100%;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+.more-info__active .more-info__info {
+    display: block;
+}

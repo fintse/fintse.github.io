@@ -1,0 +1,26 @@
+.personal-info {
+	display: flex;
+	align-items: center;
+}
+.personal-info__img {
+	max-width: 200px;
+	width: 100%;
+	max-height: 300px;
+	height: 100%;
+}
+.personal-info__wrapper {
+	margin-left: 16px;
+}
+.personal-info__wrapper--items {
+	margin-top: 16px;
+}
+.personal-info__wrapper--item {
+	display: flex;
+	align-items: center;
+}
+.personal-info__wrapper--item + .personal-info__wrapper--item {
+	margin-top: 8px;
+}
+.personal-info__wrapper--item-text {
+	margin-left: 8px;
+}

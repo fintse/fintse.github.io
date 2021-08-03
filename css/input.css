@@ -1,0 +1,21 @@
+.input__wrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.input__wrapper-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.input__wrapper-item + .input__wrapper-item {
+    margin-left: 24px;
+}
+.input__wrapper-items {
+    display: flex;
+    align-items: center;
+    width: 95%;
+}
+.form-label {
+    margin-bottom: 16px;
+}
